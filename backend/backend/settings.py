@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -10,7 +10,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '89.169.168.72', '127.0.0.1', 'localhost', 'fuminshou.myftp.org'
-    ]
+]
 
 
 # Application definition
